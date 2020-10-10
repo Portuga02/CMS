@@ -1,6 +1,8 @@
 <?php
 require 'environment.php';
 
+define("BASE", "http://localhost/cms/"); // utilizado para carregar base do sistema
+
 $config = array();
 if (ENVIRONMENT == 'development') {
 	define("BASE_URL", "http://localhost/cms/");
